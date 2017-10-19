@@ -85,7 +85,7 @@ public class Statistic {
 	public static void a(int[][] massive, double[] SrAr, double Srar, double[] SrKv, double Srkv) {
 		int yes = 0;
 		double o = 0;
-		System.out.println("По строкам:");
+		System.out.println("РџРѕ СЃС‚СЂРѕРєР°Рј:");
 		for (int i = 0; i < 1000; i++) {
 			for (int j = 0; j < 1000; j++)
 				if ((massive[i][j] < (SrAr[i] + SrKv[i])) && (massive[i][j] > (SrAr[i] - SrKv[i])))
@@ -105,7 +105,7 @@ public class Statistic {
 			o = 0;
 			yes = 0;
 		}
-		System.out.print("По всему массиву: ");
+		System.out.print("РџРѕ РІСЃРµРјСѓ РјР°СЃСЃРёРІСѓ: ");
 		for (int i = 0; i < 1000; i++)
 			for (int j = 0; j < 1000; j++)
 				if ((massive[i][j] < (Srar + Srkv)) && (massive[i][j] > (Srar - Srkv)))
@@ -119,7 +119,7 @@ public class Statistic {
 	public static void b(int[][] massive, double[] SrAr, double Srar, double[] SrKv, double Srkv) {
 		int yes = 0;
 		double o = 0;
-		System.out.println("По строкам:");
+		System.out.println("РџРѕ СЃС‚СЂРѕРєР°Рј:");
 		for (int i = 0; i < 1000; i++) {
 			for (int j = 0; j < 1000; j++) {
 				if ((massive[i][j] > (SrAr[i] - (2 * SrKv[i]))) && (massive[i][j] < (SrAr[i] - SrKv[i])))
@@ -141,7 +141,7 @@ public class Statistic {
 			o = 0;
 			yes = 0;
 		}
-		System.out.print("По всему массиву: ");
+		System.out.print("РџРѕ РІСЃРµРјСѓ РјР°СЃСЃРёРІСѓ: ");
 		for (int i = 0; i < 1000; i++)
 			for (int j = 0; j < 1000; j++)
 				if ((massive[i][j] > (Srar - (2 * Srkv))) && (massive[i][j] < (Srar - Srkv)))
@@ -156,7 +156,7 @@ public class Statistic {
 	public static void c(int[][] massive, double[] SrAr, double Srar, double[] SrKv, double Srkv) {
 		int yes = 0;
 		double o = 0;
-		System.out.println("По строкам:");
+		System.out.println("РџРѕ СЃС‚СЂРѕРєР°Рј:");
 		for (int i = 0; i < 1000; i++) {
 			for (int j = 0; j < 1000; j++) {
 				if ((massive[i][j] > (SrAr[i] - (3 * SrKv[i]))) && (massive[i][j] < (SrAr[i] - (2 * SrKv[i]))))
@@ -178,7 +178,7 @@ public class Statistic {
 			o = 0;
 			yes = 0;
 		}
-		System.out.print("По всему массиву: ");
+		System.out.print("РџРѕ РІСЃРµРјСѓ РјР°СЃСЃРёРІСѓ: ");
 		for (int i = 0; i < 1000; i++)
 			for (int j = 0; j < 1000; j++)
 				if ((massive[i][j] > (Srar - (3 * Srkv))) && (massive[i][j] < (Srar - (2 * Srkv))))
@@ -193,7 +193,7 @@ public class Statistic {
 	public static void d(int[][] massive, double[] SrAr, double Srar, double[] SrKv, double Srkv) {
 		int yes = 0;
 		double o = 0;
-		System.out.println("По строкам:");
+		System.out.println("РџРѕ СЃС‚СЂРѕРєР°Рј:");
 		for (int i = 0; i < 1000; i++) {
 			for (int j = 0; j < 1000; j++) {
 				if ((massive[i][j] > 99) && (massive[i][j] < (SrAr[i] - (3 * SrKv[i]))))
@@ -215,7 +215,7 @@ public class Statistic {
 			o = 0;
 			yes = 0;
 		}
-		System.out.print("По всему массиву: ");
+		System.out.print("РџРѕ РІСЃРµРјСѓ РјР°СЃСЃРёРІСѓ: ");
 		for (int i = 0; i < 1000; i++)
 			for (int j = 0; j < 1000; j++)
 				if ((massive[i][j] > 99) && (massive[i][j] < (Srar - (3 * Srkv))))
